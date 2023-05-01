@@ -5,10 +5,10 @@ export default class Information extends React.Component{
     render(){
         const titles = new Map<string,Array<string>>()
         titles.set('Likes',['睡眠','競プロ','コーヒー'])
-        titles.set('Skills',['競プロ(AtCoder緑)','flutter','android app'])
-        titles.set('Languages' , ['C/C++','Kotlin','Dart'])
-        titles.set('Interest' , ['設計','web','DDD','低レイヤ(少し)'])
-        titles.set('Qualification' , ['基本情報技術者試験'])
+        titles.set('Skills',['競プロ(AtCoder緑)','Flutter','Android app', 'RL (Ml-Agents)'])
+        titles.set('Languages' , ['C/C++','Kotlin','Dart', 'C#', 'Python'])
+        titles.set('Interest' , ['Web', 'RL', 'ANN', ])
+        titles.set('Qualification' , ['基本情報技術者試験', "応用情報技術者試験", "TOEIC 775"])
         titles.set('Works' , ['githubみて'])
         
         const tileList: Array<React.ReactElement> = []

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Icon from './icon'
 import Name from './name'
-import Some from './some'
+import Prose from './prose'
 
 export default class Header extends React.Component{
     render(){
@@ -10,7 +10,7 @@ export default class Header extends React.Component{
                 <Icon/>
                 <Name/>
                 <hr className='mb-5'/>
-                <Some/>
+                <Prose/>
                 <div className='my-5 py-5'/>
             </div>
         </div>
