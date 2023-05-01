@@ -6,8 +6,8 @@ export default class Profile extends React.Component{
             
         const titles = new Map<string,{title: string,content: string}>()
         titles.set('fas fa-birthday-cake',{title:'誕生日', content: '2002年9月29日'})
-        titles.set('fas fa-school',{title:'所属', content:'NITTC'})
-        titles.set('fas fa-laptop',{title:'学科', content:'電子情報工学科'})
+        titles.set('fas fa-school',{title:'所属', content:'ITF'})
+        titles.set('fas fa-laptop',{title:'学科', content:'mast21'})
         titles.set('fas fa-male',{title: '性別', content:'男'})
 
 
