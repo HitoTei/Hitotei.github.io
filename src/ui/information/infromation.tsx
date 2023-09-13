@@ -10,7 +10,7 @@ export default class Information extends React.Component{
         titles.set('Interest' , ['Web', 'RL', 'ANN', ])
         titles.set('Qualification' , ['基本情報技術者試験', "応用情報技術者試験", "TOEIC 775"])
         titles.set('Intern' , ['Cybozu Android2week (2023 8/21 ~ 9/1)'])
-        titles.set('Works' , ['githubみて'])
+        titles.set('Works' , ['githubみて！'])
         
         const tileList: Array<React.ReactElement> = []
         titles.forEach(
