@@ -28,7 +28,6 @@ jobs:
         npx webpack
         
     - name: App Deploy
-      uses: actions/checkout@v3
       run: |
         git config user.name "actions"
         git config user.email "actions@example.com"
